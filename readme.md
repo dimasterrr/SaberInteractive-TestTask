@@ -1,11 +1,11 @@
 ### Техническое задание:
-1. Реализуйте функции сериализации и десериализации двусвязного списка, заданного следующим образом:
+Реализуйте функции сериализации и десериализации двусвязного списка, заданного следующим образом:
 ```
 class ListNode {
-   public ListNode Prev;
-   public ListNode Next;
-   public ListNode Rand; // произвольный элемент внутри списка
-   public string Data;
+    public ListNode Prev;
+    public ListNode Next;
+    public ListNode Rand; // произвольный элемент внутри списка
+    public string Data;
 }
 
 class ListRand {
@@ -33,10 +33,10 @@ class ListRand {
 ```
 *Deserialize:*
 ```
-           Node*                Prev                Next                Rand                Data
-   0x2161d176f40                   0       0x2161d2f34a0                   0              Node#1
-   0x2161d2f34a0       0x2161d176f40       0x2161d2f3560       0x2161d2f34a0              Node#2
-   0x2161d2f3560       0x2161d2f34a0       0x2161d2f3620       0x2161d2f36e0              Node#3
-   0x2161d2f3620       0x2161d2f3560       0x2161d2f36e0       0x2161d176f40              Node#4
-   0x2161d2f36e0       0x2161d2f3620                   0                   0              Node#5
+            Node*                Prev                Next                Rand                Data
+    0x2161d176f40                   0       0x2161d2f34a0                   0              Node#1
+    0x2161d2f34a0       0x2161d176f40       0x2161d2f3560       0x2161d2f34a0              Node#2
+    0x2161d2f3560       0x2161d2f34a0       0x2161d2f3620       0x2161d2f36e0              Node#3
+    0x2161d2f3620       0x2161d2f3560       0x2161d2f36e0       0x2161d176f40              Node#4
+    0x2161d2f36e0       0x2161d2f3620                   0                   0              Node#5
 ```
